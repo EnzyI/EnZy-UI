@@ -14,7 +14,7 @@ jobs:
 
       - name: Build EnZyUI
         run: |
-          cat src/**/*.lua > EnZyUI.lua
+          find src -type f -name "*.lua" -print -exec cat {} \; > EnZyUI.lua
 
       - name: Commit build
         run: |
