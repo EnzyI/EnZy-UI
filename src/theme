@@ -1,0 +1,5 @@
+return {
+    Background = Color3.fromRGB(22,22,22),
+    Element = Color3.fromRGB(35,35,35),
+    Text = Color3.new(1,1,1)
+  }
